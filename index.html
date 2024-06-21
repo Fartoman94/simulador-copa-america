@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador Copa América 2024</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simulador Copa América 2024</h1>
+      <div id="teams-container"></div>
+      <div id="simulator">
+        <h2>Simulador de Partido</h2>
+        <div id="selected-teams">
+          <div id="team1-selected" class="team-card"></div>
+          <div id="vs">VS</div>
+          <div id="team2-selected" class="team-card"></div>
+        </div>
+        <button id="simulate-btn" onclick="simulateMatch()">
+          Simular Partido
+        </button>
+        <div id="result"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
